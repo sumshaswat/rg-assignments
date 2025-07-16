@@ -7,7 +7,7 @@ public class EmployeeJDBC {
 
     public EmployeeJDBC() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/company", "root", "your_password");
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/company", "root", "password");
     }
 
     // CREATE
